@@ -1,0 +1,22 @@
+<!-- <form #form="ngForm">
+    <div class="form-group">
+        <label>Date</label>
+        <input name="Date" #Date="ngModel" [(ngModel)]="service.formData" class="form-control">
+    </div>
+</form> -->
+
+<div [hidden]="!chart">
+    <canvas id="canvas">{{chart}}</canvas>
+</div>
+
+
+<!-- <table class="table table-hover">
+
+    <tr *ngFor="let sal of service.list">
+        
+        <td>[{{sal.Date}}]</td>
+        <td>[{{sal.Time}}]</td>
+        <td>[{{sal.Ammount}}]</td>
+        <td><button class="btn btn-sm btn-outline-danger">X</button></td>
+    </tr>
+    </table> -->
